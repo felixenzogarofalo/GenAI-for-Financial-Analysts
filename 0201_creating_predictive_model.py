@@ -38,13 +38,13 @@ def fetch_data(symbol, start_date, end_date):
     return data
 
 # ----------------------------------------------------------------------------
-# 2. Get Two Years of Data (2019 for training, 2020 for testing)
+# 2. Get Two Years of Data (2023 for training, 2024 for testing)
 # ----------------------------------------------------------------------------
-df = fetch_data('AAPL', '2019-01-01', '2021-01-01')
+df = fetch_data('AAPL', '2023-01-01', '2024-01-01')
 
-# We will train on 2019 and test (live) on 2020 in Backtrader
-train_df = df.loc[:'2019-12-31'].copy()
-test_df = df.loc['2020-01-01':'2021-01-01'].copy()
+# We will train on 2023 and test (live) on 2024 in Backtrader
+train_df = df.loc[:'2023-12-31'].copy()
+test_df = df.loc['2024-01-01':'2025-01-01'].copy()
 
 # ----------------------------------------------------------------------------
 # 3. Prepare Training Data
