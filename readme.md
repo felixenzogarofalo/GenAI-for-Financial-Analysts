@@ -20,13 +20,13 @@ This repository contains the code used in the **GenAI for Financial Analysts - P
     .venv\Scripts\activate     # On Windows
     ```
 
-**Install Requirements**
+4. **Install Requirements**
 To install all the required packages, run:
     ```bash
     pip install -r requirements.txt
     ```
 
-**Usage**
+5. **Usage**
 Once the requirements are installed, you can start exploring the notebooks and scripts provided:
     ```bash
     python main.py
