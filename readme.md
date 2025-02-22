@@ -29,7 +29,7 @@ To install all the required packages, run:
 5. **Usage**
 Once the requirements are installed, you can start exploring the notebooks and scripts provided:
     ```bash
-    python main.py
+    python 0104_genai_and_market_trends.py
     ```
 
 Feel free to modify and adapt the code to suit your learning and project needs.
